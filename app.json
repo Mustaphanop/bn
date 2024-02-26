@@ -1,0 +1,26 @@
+{
+	"name": "mustapha",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/57509bd3f685ba0dea69d.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/mustaphanop/bn",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
